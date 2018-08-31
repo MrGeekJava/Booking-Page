@@ -721,17 +721,23 @@
     padding-top: 10px;
     float: left;
 }
-.input_ifm_centre_p,.input_ifm_centre_pp,.input_ifm_right_p,.user_ifm_p{
+.input_ifm_centre_p,.input_ifm_centre_pp,.input_ifm_right_p,.user_ifm_p,.user_ifm_p2{
     display: inline-block;
     color: #383838;
     font-weight: bold;
     font-size: 14px;
+
 }
+.input_ifm_centre_pp{
+    /*display: block;*/
+}
+
 .input_ifm_centre_pp{
     color: red;
     padding-left: 5px;
 }
 .input_ifm_centre_inp,.input_ifm_right_inp{
+    display: block;
     width: 174px;
     height: 31px;
     border-radius: 5%;
@@ -764,7 +770,7 @@
     display: inline-block;
     /*clear: left;*/
 }
-.input_ifm_inp_email{
+.input_ifm_inp_email,.input_ifm_inp_email2{
     width: 287px;
     height: 33px;
     padding-left: 0;
